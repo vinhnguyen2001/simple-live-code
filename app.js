@@ -66,7 +66,7 @@ function change() {
     if (count === 4) {
         parentElm[0].style.gridTemplateColumns = "1fr 1fr 1fr 1fr";
 
-    } else if (count == 3) {
+    } else if (count === 3) {
         parentElm[0].style.gridTemplateColumns = "1fr 1fr 1fr";
 
     } else if (count === 2) {
